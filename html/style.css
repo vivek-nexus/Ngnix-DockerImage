@@ -56,11 +56,13 @@ body
 
 .mySocialWrapper
 {
-    max-width: 30px;
-    padding: 0px 30px 0px 0px;
+    display: flex;
+    /* flex-direction: column; */
+    padding-right: 10px;
+    max-width: 60px;
     align-items: center;
-    justify-content: center;
-    background-color: darkgreen;
+    justify-content: space-evenly;
+    /* background-color: darkgreen; */
 }
 
 
@@ -72,10 +74,17 @@ body
 
 .myLogoCol
 {
+    /* display: flex; */
+    justify-content: space-evenly;
     max-width: 110px;
     margin: 0px auto 0px auto;
     padding-top: 20px;
     text-align: center;
+}
+
+.myLogoCol img
+{
+    max-width: 90%;
 }
 
 .myContentCol
