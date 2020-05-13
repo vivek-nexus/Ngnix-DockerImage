@@ -118,7 +118,27 @@ a:hover
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
+.my-button-light
+{
+    background-color: rgba(38, 0, 255, 0);
+    padding: 12px 20px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
 .my-button:hover
+{
+    border-radius: 0px 15px;
+    transition-duration: 200ms;
+}
+
+.my-button-light:hover
 {
     border-radius: 0px 15px;
     transition-duration: 200ms;
@@ -161,25 +181,12 @@ a:hover
     text-align: center;
 }
 
-.my-button-light
-{
-    background-color: rgba(38, 0, 255, 0);
-    padding: 12px 20px;
-    margin: auto;
-    border: 2px solid white;
-    border-radius: 15px 0px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
-}
-
 h1
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
+    padding-bottom: 1.5rem;
 }
 
 h2
