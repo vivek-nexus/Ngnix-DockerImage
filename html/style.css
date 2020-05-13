@@ -2,22 +2,22 @@
 {
     0%
     {
-        color: rgb(6, 27, 32);
+        /* color: rgb(6, 27, 32); */
         /* stroke: rgb(6, 27, 32); */
         /* text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); */
     }
 
     50%
     {
-        color: rgb(194, 34, 34);
-        stroke: rgb(194, 34, 34);
-        stroke-width: 5;
-        /* text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50); */
+        /* color: rgb(194, 34, 34); */
+        stroke: rgb(255, 81, 58);
+        stroke-width: 4;
+        text-shadow: 3px 3px 3px rgb(255, 81, 58);
     }
 
     100%
     {
-        color: rgb(6, 27, 32);
+        /* color: rgb(6, 27, 32); */
         /* stroke: rgb(6, 27, 32); */
         /* text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.0); */
     }
@@ -60,7 +60,7 @@
 
 svg
 {
-    display: block;
+    width: 60%;
 }
 
 .my-hero-text
@@ -74,18 +74,18 @@ svg
 
 .art
 {
-    animation: glow 3s;
+    animation: glow 3s 6;
 }
 
 .code
 {
-    animation: glow 3s;
+    animation: glow 3s 5;
     animation-delay: 3s;
 }
 
 .perspectives
 {
-    animation: glow 3s;
+    animation: glow 3s 4;
     animation-delay: 6s;
 }
 
@@ -106,7 +106,7 @@ a:hover
     text-decoration: none;
 }
 
-.button
+.my-button
 {
     background-color: rgb(38, 0, 255);
     padding: 12px 20px;
@@ -118,15 +118,84 @@ a:hover
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.button:hover
+.my-button:hover
 {
     border-radius: 0px 15px;
     transition-duration: 200ms;
 }
 
-.button:active
+.my-button:active
 {
     background-color: rgb(93, 65, 255);
+}
+
+.mi-vertical-center
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.tile-main
+{
+    background-color: #EC524D;
+    /* margin-top: 6px; */
+    /* margin-bottom: 6px; */
+    /* margin: 0.5%; */
+    /* padding: 5%; */
+    /* height: 100%; */
+    /* width: 80%; */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tile-secondary
+{
+    /* background-color: #EC524D; */
+    /* margin: 0% 0% 1% 1%; */
+    /* padding : 5%; */
+    /* height: 80%;
+    width: 80%; */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.my-button-light
+{
+    background-color: rgba(38, 0, 255, 0);
+    padding: 12px 20px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+@media (min-width: 768px)
+{
+    svg
+    {
+        width: 90%;
+    }
 }
 
 
