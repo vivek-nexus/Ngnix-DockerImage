@@ -28,6 +28,7 @@
 {
     background-image: linear-gradient(to right, #BEF2FF, #BEFFD4);
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.32);
+    position: sticky;
 }
 
 .my-logo
@@ -160,23 +161,12 @@ a:hover
 .tile-main
 {
     background-color: #EC524D;
-    /* margin-top: 6px; */
-    /* margin-bottom: 6px; */
-    /* margin: 0.5%; */
-    /* padding: 5%; */
-    /* height: 100%; */
-    /* width: 80%; */
     border-radius: 15px;
     text-align: center;
 }
 
 .tile-secondary
 {
-    /* background-color: #EC524D; */
-    /* margin: 0% 0% 1% 1%; */
-    /* padding : 5%; */
-    /* height: 80%;
-    width: 80%; */
     border-radius: 15px;
     text-align: center;
 }
